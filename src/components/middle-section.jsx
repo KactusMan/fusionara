@@ -5,12 +5,12 @@ export default function MidSection() {
 return (
     <div className="lg-w:[100%] lg-h:[130%] lg:mx-auto h-20  flex relative  ">
 
-    <div className="second-div ">
+    <div className="second-div pr-5">
     </div>
 
 
 
-    <div className="lg-w:[100%] lg-h:[130%]"> 
+    <div className="lg-w:[100%] lg-h:[130%] "> 
         <h4 className="text-xl leading-[43.57px] text-black what " > WHAT IS</h4>
         <h6 className="text-3xl leading-[63.75px] text-black what-2"> FUSIONARA ?</h6>
         <h3 className="text-xl leading-[40px] text-black what-3">

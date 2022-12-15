@@ -9,29 +9,34 @@ export default function Header() {
 
     
       <div>
-        <ul className="flex ">
-          <a href="/">
-          <li className="lg:flex pt-5 pl-5 roboto lg:ml-[40%] lg:justify-center hidden">FUSIONARA</li></a>
-          </ul>
+       <img className="relative lg:ml-[10%]" src="/assets/images/Fusionara_Logo_1.png" alt="" />
       
       </div>
       
     
-      <div className="lg:flex pt-5 pl-5 realtive lg:ml-[31%] lg:justify-center hidden ">
+      <div className="lg:flex pt-5  realtive lg:ml-[24%] lg:justify-center hidden ">
         <ul className="flex flex-row pr-2">
           <a href="/">
           <li className="text-md  roboto text-center text-{#D6D6D699} mr-14 cursor-pointer">ABOUT</li></a>
           <li className="text-md   roboto text-center text-{#D6D6D699}  mr-14 cursor-pointer">WORLD</li>
           <li className="text-md   roboto text-center text-{#D6D6D699}  mr-14 cursor-pointer">GAMEPLAN</li>
           <li className="text-md   roboto text-center text-{#D6D6D699}  mr-14 cursor-pointer">TEAM</li>
-          <li className="text-md      text-{#D6D6D699} roboto lg:ml-[45%]  ">TWITTER</li>
-          <li className="text-md    roboto   lg:ml-[10%]  ">DISCORD</li>
+          
         </ul>
       
         
       </div>
 
+        <div>
+            <a href="https://twitter.com/fusionara">
 
+            <img className="disc" src="/assets/images/discordicon.png" alt="" />
+            </a>
+
+            <a href="https://discord.com">
+            <img className="twit" src="/assets/images/twitterlogo.png" alt="" />
+            </a>
+        </div>
       
       
     </div>

@@ -51,10 +51,10 @@ body {
   background-image: url("/public/assets/images/second-div.png");
   background-size: cover;
   object-fit: cover;
-  height: 65vh;
+  height: 73vh;
   width: 35%;
   position: relative;
-  left: 60%;
+  left: 57%;
   top: 100%;
 
 }
@@ -62,7 +62,7 @@ body {
 .what {
   position: relative;
   top: 140%;
-  right: 70%;
+  right: 74%;
   font-size: 36px;
   font-family: "Inter";
   font-weight: 300;
@@ -70,7 +70,7 @@ body {
 .what-2 {
   position: relative;
   top: 200%;
-  right: 70%;
+  right: 74%;
   font-family: "Roboto";
  font-size: 80px;
   font-weight: 700;
@@ -79,7 +79,7 @@ body {
 .what-3 {
   position: relative;
   top: 300%;
-  right: 70%;
+  right: 74%;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
@@ -93,7 +93,7 @@ body {
   height: 90vh;
   width: 35%;
   position: relative;
-  left: 10%;
+  left: 13%;
   top: 300%;
 }
 
@@ -150,6 +150,59 @@ body {
   top: 488%;
   left: 340%;
 }
+
+
+.first-box {
+  position: absolute;
+  left: 5%;
+  top: 382%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.71%);
+
+}
+
+.second-box {
+  position: absolute;
+  left: 22%;
+  top: 381.7%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.71%);
+
+}
+.third-box {
+  position: absolute;
+  left: 40%;
+  top: 381.7%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.71%);
+
+}
+.fourth-box {
+  position: absolute;
+  left: 58%;
+  top: 381.7%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.71%);
+
+}
+.fifth-box {
+  position: absolute;
+  left: 76%;
+  top: 381.7%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.71%);
+
+}
+
+
+.disc {
+  position: absolute;
+  left: 90%;
+  top: 3%;
+}
+
+.twit {
+  position: absolute;
+  left: 85%;
+  top: 3%;
+}
+
+
 
 /* .image-1 {
   position: relative;
